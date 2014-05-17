@@ -1,0 +1,51 @@
+SERVER                                                  General Commands	                     SERVER                           						    		     Manual					            	 	                                                               								
+
+
+
+NAME
+       SERVER -  Server that calculate (1-x)^(1/3) function according to wheel of fortunes number and calculates
+		 average respond miliseconds time with threads,semaphore and shared memory.it only run with client program.
+       
+       CLIENT -  Client is the program that acts client,connects Server and command it number of threads
+		 that calculate the function.
+
+
+
+SYNOPSIS
+       running server:
+	    ./server [WHEEL OF FORTUNE SIZE] [UPDATE TIME (MILISECONDS)] 
+	
+
+       connecting server:
+	    ./client [NUMBER OF THREADS]
+
+
+
+
+DESCRIPTION
+       Server takes number of threads from command line,calculates the function according to wheel of fortune and calculate
+       average in given update time.
+
+
+
+
+
+****COMPILING****
+
+gcc -c client.c
+gcc -o client client.o -lm -lrt -lpthread
+gcc -c server.c
+gcc -o server server.o -lm -lrt -lpthread
+
+***NOTE***:And also there is MAKEFILE in the file
+	   You can compile with make command in terminal 
+
+
+****EXAMPLE USAGE****
+
+./server 1000 10
+./client 1000
+
+
+
+User Commands                                        Ali Anıl Apaydın 								                                                                     SERVER													    SERVER 																	

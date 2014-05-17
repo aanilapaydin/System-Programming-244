@@ -1,0 +1,35 @@
+BULBENI                                                         General Commands							    BULBENI 		       						             Manual                                                                								
+
+
+
+NAME
+       bulBeni - print given number of encourented lines and number of matching a string  like less 
+                 in that given directory from current directory(relative path).
+
+SYNOPSIS
+       bulBeni -DIRNAME -g [WORD] -l [LINENUMBER]  
+		or
+       bulBeni -DIRNAME -g "[WORD]" -l [LINENUMBER]
+
+DESCRIPTION
+       bulBeni  searches  the txt files on the named directory from current directory (relative path)
+       for lines containing a match to the given STRING.It prints encourented 
+       lines according to given line number.
+
+****COMPILING****
+
+gcc -c bulBeni.c
+gcc -o bulBeni bulBeni.o
+
+
+****EXAMPLE USAGE****
+
+./bulBeni testDosya -g "haha hihi ..." -l 15
+		or
+./bulBeni testDosya -g haha -l 15
+		or
+./bulBeni testDosya -g "hihi" -l 15
+		or
+./bulBeni ../../CSE244/hw02/testDosya -g hihi -l 15
+
+User Commands                                                         Ali Anıl Apaydın 								                                                                     BULBENI																		BULBENI

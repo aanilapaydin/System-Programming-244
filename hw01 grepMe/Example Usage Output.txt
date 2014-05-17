@@ -1,0 +1,15 @@
+Parent pId: 5216
+
+Word: haha                 Count: #26    pId: 5217   ppId:5216   
+Lines are:
+Line Number 1 Number of occurrences 5
+Line Number 2 Number of occurrences 3
+Line Number 3 Number of occurrences 3
+Line Number 4 Number of occurrences 3
+Line Number 5 Number of occurrences 5
+Line Number 8 Number of occurrences 4
+Line Number 9 Number of occurrences 3
+Parent pId: 5216
+
+
+Done parent. pId: 5216 

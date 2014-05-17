@@ -1,0 +1,33 @@
+LOCALSERVER                                                  General Commands	                     LOCALSERVER                           						    		     Manual					            	 	                                                               								
+
+NAME
+       LOCALSERVER -  LocalServer that calculate (1-x)^(1/3) function according to wheel of fortunes number and calculates
+		      average respond miliseconds time with threads,semaphore and shared memory.Updates log file according to that.
+		      it run without a client program. 
+
+
+SYNOPSIS
+       running localserver:
+	    ./localServer [WHEEL OF FORTUNE SIZE] [UPDATE TIME (MILISECONDS)] [NUMBER OF THREADS] 
+	
+
+DESCRIPTION
+       LocalServer takes wheel of fortune size,average update time(miliseconds) and number of threads from command line,
+       calculates the function according to wheel of fortune and calculate average in given update time.Update log file
+       according to that.
+
+****COMPILING****
+
+gcc -c localServer.c
+gcc -o localServer localServer.o -lm -lrt -lpthread
+
+***NOTE***:And also there is MAKEFILE in the file
+	   You can compile with make command in terminal 
+
+
+****EXAMPLE USAGE****
+
+./localServer 1000 10 1000
+
+
+User Commands                                        Ali Anıl Apaydın 								                                                                     LOCALSERVER													    LOCALSERVER 																	

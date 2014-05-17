@@ -1,0 +1,81 @@
+Parent
+PID      FILE NAME
+==================================================================
+Total text files found:
+testDosya/1.txt
+testDosya/3.txt
+testDosya/dir1/dir11/111.txt
+testDosya/dir1/22.txt
+testDosya/dir1/11.txt
+testDosya/2.txt
+
+
+
+Word: hihi                 Count: #7     pId: 4443   ppId:4436   
+File:testDosya/1.txt
+Lines are:
+Line Number 1 Number of occurrences 1
+Line Number 4 Number of occurrences 1
+Line Number 5 Number of occurrences 1
+Line Number 6 Number of occurrences 2
+Line Number 8 Number of occurrences 2
+Word: hihi                 Count: #8     pId: 4444   ppId:4436   
+File:testDosya/3.txt
+MORE?
+Lines are:
+Line Number 1 Number of occurrences 1
+Line Number 2 Number of occurrences 1
+Line Number 4 Number of occurrences 1
+Line Number 6 Number of occurrences 1
+Line Number 8 Number of occurrences 4
+
+Word: hihi                 Count: #15    pId: 4445   ppId:4436   
+File:testDosya/dir1/dir11/111.txt
+Lines are:
+Line Number 1 Number of occurrences 1
+MORE?
+Line Number 2 Number of occurrences 2
+Line Number 3 Number of occurrences 1
+Line Number 4 Number of occurrences 2
+Line Number 5 Number of occurrences 1
+Line Number 6 Number of occurrences 2
+Line Number 7 Number of occurrences 1
+Line Number 8 Number of occurrences 2
+Line Number 9 Number of occurrences 1
+Line Number 10 Number of occurrences 2
+Word: hihi                 Count: #12    pId: 4446   ppId:4436  
+MORE? 
+File:testDosya/dir1/22.txt
+Lines are:
+Line Number 1 Number of occurrences 2
+Line Number 2 Number of occurrences 1
+Line Number 3 Number of occurrences 1
+Line Number 4 Number of occurrences 2
+Line Number 5 Number of occurrences 1
+Line Number 6 Number of occurrences 1
+Line Number 7 Number of occurrences 2
+Line Number 9 Number of occurrences 2
+MORE?
+Word: hihi                 Count: #12    pId: 4447   ppId:4436   
+File:testDosya/dir1/11.txt
+Lines are:
+Line Number 1 Number of occurrences 1
+Line Number 2 Number of occurrences 2
+Line Number 3 Number of occurrences 2
+Line Number 4 Number of occurrences 1
+Line Number 5 Number of occurrences 1
+Line Number 6 Number of occurrences 1
+Line Number 7 Number of occurrences 2
+MORE?
+Line Number 8 Number of occurrences 2
+Word: hihi                 Count: #4     pId: 4448   ppId:4436   
+File:testDosya/2.txt
+Lines are:
+Line Number 1 Number of occurrences 1
+Line Number 4 Number of occurrences 1
+Line Number 8 Number of occurrences 2
+FILE IS OVER...
+
+
+
+Done parent. pId: 4436 

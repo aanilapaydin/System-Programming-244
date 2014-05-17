@@ -1,0 +1,32 @@
+GREPM                                                                General Commands							GREPM 										Manual                                                                								
+
+
+
+NAME
+       grepM - print encourented lines and number of matching a string
+
+SYNOPSIS
+       grepM -FILENAME [WORD]  
+		or
+       grepM -FILENAME "[WORD]"
+
+DESCRIPTION
+       grepM  searches  the  named the input file on current directory
+       for lines containing a match to the given STRING.
+
+****COMPILING****
+
+gcc -c grepM.c
+gcc -o grepM grepM.o
+
+
+****EXAMPLE USAGE****
+
+./grepM -input.txt "haha hihi ..."
+		or
+./grepM -input.txt haha
+		or
+./grepM -input.txt "hihi"
+
+
+User Commands                                                         Ali Anıl Apaydın GREPM                                                                     								GREPM

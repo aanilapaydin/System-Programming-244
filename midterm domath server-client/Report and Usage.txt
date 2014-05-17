@@ -1,0 +1,41 @@
+DoMATH                                                  General Commands	                     DOMATH                           						    		     Manual					            	 	                                                               								
+
+
+
+NAME
+       DOMATH -  doMath is the server that calculate polynomical and trigonometric functions include sin,cos,exp
+		 that fiven respond nanoseconds time.it only run with client program.
+       CLIENT -  client is the program that acts client,connects doMath server and command intergate or derivate
+		 servers function in that given time differance in miliseconds
+
+SYNOPSIS
+       running server:
+	    ./doMath [*FUNCTION] [RESPOND TIME (NANOSECONDS)] 
+	
+	* = with blank between each arg and at blank last.
+
+       connecting server:
+	    ./client [INTEGRAL-DERIVATE] [TIME DIFFRENCE (MILISECONDS)]
+
+DESCRIPTION
+       doMath server takes and function from command line convert to postfix and according to the client response
+       calculates integral or derivation of the function in given response time.
+
+****COMPILING****
+
+gcc -c client.c
+gcc -o client client.o
+gcc -c doMath.c
+gcc -o doMath doMath.o -lm -lrt
+
+****EXAMPLE USAGE****
+
+./doMath "sin ( t ^ 5 ) + t " 100000
+./client integral 10
+
+	or
+
+./doMath "t ^ 3 " 1000000000
+./client derivate 20000
+
+User Commands                                        Ali Anıl Apaydın 								                                                                     DOMATH													    DOMATH 																	

@@ -1,0 +1,51 @@
+NOTE:In this output client is finished normally,server is terminated with Ctrl+C
+
+./doMath "t ^ 2 " 1000000000
+t 2 ^ 
+derivate
+^CCtrl+C signal detected server is terminated
+
+
+./client derivate 20000
+1.iteration derivate of t ^ 2 =747901.000000 
+
+2.iteration derivate of t ^ 2 =2000947964.000000 
+
+3.iteration derivate of t ^ 2 =4000264886.000000 
+
+4.iteration derivate of t ^ 2 =6002728101.000000 
+
+5.iteration derivate of t ^ 2 =8007046173.000000 
+
+6.iteration derivate of t ^ 2 =10001138132.000000 
+
+7.iteration derivate of t ^ 2 =12005456203.000000 
+
+8.iteration derivate of t ^ 2 =14030226500.000000 
+
+9.iteration derivate of t ^ 2 =16034544571.000000 
+
+10.iteration derivate of t ^ 2 =18005824433.000000 
+
+11.iteration derivate of t ^ 2 =20070712556.000000 
+
+12.iteration derivate of t ^ 2 =21970409629.000000 
+
+13.iteration derivate of t ^ 2 =24035297752.000000 
+
+14.iteration derivate of t ^ 2 =26100185875.000000 
+
+15.iteration derivate of t ^ 2 =27917287424.000000 
+
+16.iteration derivate of t ^ 2 =30064771072.000000 
+
+17.iteration derivate of t ^ 2 =32047063670.000000 
+
+18.iteration derivate of t ^ 2 =34029356268.000000 
+
+19.iteration derivate of t ^ 2 =36011648866.000000 
+
+20.iteration derivate of t ^ 2 =37993941464.000000 
+
+time dif:20000983579 nanoseconds
+
