@@ -1,0 +1,56 @@
+FINAL                                                  General Commands	                     FINAL                           						    		     Manual					            	 	                                                               								
+
+
+
+NAME
+       MATRIXGENERATOR -  Generates random matrices according to number of matrices create message queue 
+			  between luDecomposition module and itself.Send matrices to luDecompostion module
+			  properly.
+		 	  
+       
+       LUDECOMPOSITION -  luDecomposition module receive random matrices from matrixGenerator.Calculates lower
+			  and upper triangles of them.Sends to InverseTaking module.
+
+       INVERSETAKING   -  InverseTaking module receives matrices,lower and upper triangle amtrices from luDecomposition
+			  module calculates U^-1 and L^-1 for finding inverse of random matrices.It uses multiplication from
+			  matrixMultiplication.
+
+       VERIFIERER      -  Runs with inverseTaking module.Calculates A * A^-1 for find I matrix.If it find I matrix the calculation
+			  is correct.
+
+       MATRIXMULTIPLICATON - this module calculates only multiplication of two matrices for help InverseTaking and Verifierer module.
+
+SYNOPSIS
+       running matrixGenerator:
+	    ./matrixGenerator [MATRIX SIZE] [NUMBER OF MATRICES] 
+	
+
+       connecting luDecomposition:
+	    ./luDecomposition
+
+       connecting inverseTaking:
+	    ./inverseTaking
+
+
+****COMPILING****
+
+gcc -c matrixGenerator.c
+gcc -o matrixGenerator matrixGenerator.o -lm -lrt -lpthread
+gcc -c luDecomposition.c
+gcc -o luDecomposition luDecomposition.o -lm -lrt -lpthread
+gcc -c inverseTaking.c
+gcc -o inverseTaking inverseTaking.o -lm -lrt -lpthread
+
+***NOTE***:And also there is MAKEFILE in the file
+	   You can compile with make command in terminal 
+
+
+****EXAMPLE USAGE****
+
+./matrixGenerator 2 2
+./luDecomposition
+./inverseTaking
+
+
+
+User Commands                                        Ali Anıl Apaydın 								                                                                     FINAL													    FINAL 																	
